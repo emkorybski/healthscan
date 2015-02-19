@@ -22,7 +22,7 @@ class HealthCasesController < ApplicationController
   end
 
   def create
-    @health_case = HealthCase.new(health_case_params)
+    @health_case = current_user.health_cases.new(health_case_params)
     @health_case.save
     respond_with(@health_case)
   end

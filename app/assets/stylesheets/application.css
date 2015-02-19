@@ -12,5 +12,5 @@
  *
  *= require_tree .
  *= require_self
- *= require bootswatch/united/bootstrap
+ *= require bootswatch/flatly/bootstrap
  */
