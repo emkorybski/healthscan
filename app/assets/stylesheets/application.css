@@ -12,6 +12,5 @@
  *
  *= require_tree .
  *= require_self
- *= require twitter-bootstrap-static/bootstrap
  *= require bootswatch/united/bootstrap
  */

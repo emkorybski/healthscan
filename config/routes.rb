@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :health_cases
+
   devise_for :users
   get 'welcome/index'
 
